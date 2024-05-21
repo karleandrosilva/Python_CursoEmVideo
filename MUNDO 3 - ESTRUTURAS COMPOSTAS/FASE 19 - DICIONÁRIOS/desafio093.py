@@ -10,6 +10,7 @@ for cont in range(0, total):
     partidas.append(int(input(f'Quantos gols na partida {cont+1}: '))) 
 jogador['GOLS'] = partidas[:]
 
+# SOMA DOS GOLS
 for partida in partidas:
     soma += partida
 jogador['TOTAL'] = soma
